@@ -1,0 +1,58 @@
+
+h1 {text-align: center; color: #393E46; font-size: 120px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body {background-color: #F2E7D5; }
+a  {color: #6D9886;font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration-line: none;}
+button {
+    border: none;
+    color: rgb(99, 87, 73);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;}
+    
+    button {
+    background-color: #393E46;
+    color: #6D9886;
+    border: 2px solid #6D9886;   
+    }
+    
+    button:hover {
+    background-color: #F2E7D5;
+    color: #6D9886;
+    }
+button1 {
+    border: none;
+    color: rgb(99, 87, 73);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;}
+    
+    button1 {
+    background-color: #393E46;
+    color: #6D9886;
+    border: 2px solid #6D9886;   
+    }
+    
+    button1:hover {
+    background-color: #F2E7D5;
+    color: #6D9886;
+    }
+
+    button {
+        position: absolute;
+        left: 650px;
+        top: 350px;
+      }
+    button1 {
+    position: absolute;
+    left: 1100px;
+    top: 350px;
+    }
+    img {border-radius: 10px;}

@@ -1,0 +1,65 @@
+body {text-align: center; background-color: bisque;}
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 75px; color: rgb(99, 87, 73); border: 10px; text-align: center;}
+p {color: rgb(99, 87, 73);}
+button { color: rgb(99, 87, 73); border: 1px;background-size: 130%;font-size: 20px;background-color: bisque;}
+img { text-align: center;}
+h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 50px; color:rgb(99, 87, 73); border: 10px; border: 10px;}
+button1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 50px; color: rgb(99, 87, 73);text-align: center; border: 10px;}
+h4 { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 30px; color: rgb(99, 87, 73);}
+button9 {text-align: center;}
+hr {color: rgb(99, 87, 73);
+}
+
+button5 {
+border: none;
+color: rgb(99, 87, 73);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+}
+
+button5 {
+background-color: rgb(99, 87, 73);
+color: black;
+border: 2px solid #000000;   
+}
+
+button5:hover {
+background-color: #000000;
+color: rgb(253, 154, 5); width: 700px; transition-property: width; transition-duration: 1s; transition-timing-function: linear;
+transition-duration: 1s;
+}
+button5 {width: 100px;
+height: 25px;
+transition-property: width;
+transition-duration: 1s;
+transition-timing-function: linear;}
+
+button5:hover {
+    width: 5000px;
+}
+button {
+    border: none;
+    color: rgb(99, 87, 73);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;}
+    
+    button {
+    background-color: rgb(99, 87, 73);
+    color: black;
+    border: 2px solid #000000;   
+    }
+    
+    button:hover {
+    background-color: #000000;
+    color: rgb(253, 154, 5);
+    }
+    

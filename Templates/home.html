@@ -1,0 +1,60 @@
+<!-- Jake Grangier, 11/11/22 -->
+<!-- Photo Album -->
+<!-- Inspired by W3 schools -->
+
+<!DOCTYPE html>
+<link rel= "stylesheet" type= "text/css" href= "static\css\Stylesheet5.css"> <!-- this links my css -->
+<html>
+  <head>
+    
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #393E46;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #6D9886;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #F2E7D5;
+    }
+    
+    .active {
+      background-color: #F7F7F7;
+    }
+    </style>
+    
+    </head>
+  
+
+    <body>
+    
+    <ul> 
+      <li><a href="http://127.0.0.1:5000/">Home</a></li>    <!-- This makes my menu take the user to different pages -->
+      <li><a href="http://127.0.0.1:5000/l">Lake</a></li>
+      <li><a href="http://127.0.0.1:5000/m">Snow</a></li>
+      
+    </ul>
+
+
+    </body>
+    <title>Photo Album</title>
+    <h1>Photo Album</h1>
+    <button><a href="http://127.0.0.1:5000/l">Lake Page</a></button>     <!-- these are the buttons that take you to the other pages -->
+    <button1><a href="http://127.0.0.1:5000/m">Snow Page</a></button1>   
+    <img src="..\static\images\lake3.png" alt="Lake pic" style="position:fixed; left: 450px; top: 425px; width: 500px; height: 400px;"> <!-- These are the images -->
+    <img src="..\static\images\snow6.png" alt="Snow pic" style="position:fixed; left: 950px; top: 425px; width: 500px; height: 400px;">
+    </html>

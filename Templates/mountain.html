@@ -1,0 +1,75 @@
+<!-- Jake Grangier, 11/11/22 -->
+<!-- Photo Album -->
+<!-- Inspired by W3 schools -->
+
+<!DOCTYPE html>
+<html>
+  <title>Snow page</title>
+    <head>                   <!-- This is the nav bar style -->
+        <style>   
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #F2DEBA;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: #0E5E6F;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #FFEFD6;
+        }
+        
+        .active {
+          background-color: #3A8891;
+        }
+        </style>
+        </head>
+        <body>
+        <a name="top"></a>
+        
+        <ul>
+          <li><a href="http://127.0.0.1:5000/">Home</a></li>  <!-- These are the nav bar links to the other pages -->
+          <li><a href="http://127.0.0.1:5000/l">Lake</a></li>
+          <li><a href="http://127.0.0.1:5000/m">Snow</a></li>
+          
+        </ul>
+        
+        </body>
+<link rel= "stylesheet" type= "text/css" href= "static\css\Stylesheet3.css"> <!-- These are the photos on my page -->
+<script src="H:\HTML\Templates\gallery.js"></script>
+    <img src="static\images\snow6.png"style= width="50%" ;height="50%" alt="Nature onclick="myFunction(imgs); ">
+  </div>
+    <img src="static\images\snow8.png" alt="Snow" onclick="myFunction(imgs);">
+  </div>
+    <img src="static\images\snow5.png" alt="Mountains" onclick="myFunction(imgs);">
+  </div>
+    <img src="static\images\snow7.png" alt="Lights" onclick="myFunction(imgs);">
+  </div>
+    <img src="static\images\snow2.png" alt="Lights" onclick="myFunction(imgs);">
+  </div>
+</div>
+<!-- The expanding image container -->
+<div class="container">
+ 
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<a href="#top" style="float: right ; font-size: 30px; outline-style: double;">Back To Top</a>
+<p></p>
+</html>

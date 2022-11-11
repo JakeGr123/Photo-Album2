@@ -1,0 +1,36 @@
+html {display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 65%; }
+    
+    
+    @keyframes bgcolor {
+        0% {
+            background-color: #ff1100
+        }
+    
+        30% {
+            background-color: #ff5100
+        }
+    
+        60% {
+            background-color: #ffd900
+        }
+    
+        90% {
+            background-color: #ffa600
+        }
+    
+        100% {
+            background-color: #ff7300
+        }
+    }
+    
+    body {
+        -webkit-animation: bgcolor 20s infinite;
+        animation: bgcolor 10s infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+    }
+a {color: #393E46;font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-decoration-line: none;}
+img {border-radius: 10px;}
